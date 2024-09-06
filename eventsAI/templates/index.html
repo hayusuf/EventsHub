@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>EventsAI</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <h1>EventsAI</h1>
+    <!-- add the regular HTML stuff for the header, show logname / explore if logged in else show log-in -->
+    <!-- ^^ feel like we did this in P2 -->
+
+    <div id="reactEntry">Loading ...</div>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='js/bundle.js') }}"
+    ></script>
+  </body>
+</html>
